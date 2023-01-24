@@ -1,0 +1,35 @@
+body    {
+    margin: 0;
+    padding: 0;
+}
+
+.container  {
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 35px;
+}
+
+.card   {
+    width: 25%;
+    height: 40%;
+    background-color: darkcyan;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p   {
+    width: 50%;
+    text-align: center;
+}
+
+button  {
+    width: 220px;
+    height: 50px;
+}
